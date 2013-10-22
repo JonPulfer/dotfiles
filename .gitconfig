@@ -1,0 +1,14 @@
+[user]
+	name = Jonathan Pulfer
+	email = JonPulfer@server.fake
+[core]
+	editor = vim
+	excludesfile = /home/jonathan/.gitignore_global
+[diff]
+	tool = kompare
+[difftool "kompare"]
+	cmd = "kompare  \"$LOCAL\" \"$REMOTE\""
+[difftool]
+	prompt = false
+[gui]
+	recentrepo = /home/jonathan/src/go/src/github.com/JonPulfer/serpent
